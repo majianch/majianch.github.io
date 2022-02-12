@@ -18,17 +18,17 @@
   <link 
     rel="icon" 
     href="https://demo.theme-kaze.top/img/Kaze.png">
-  <title>友链</title>
+  <title>Dart 库</title>
   
     
       <meta 
         property="og:title" 
-        content="友链">
+        content="Dart 库">
     
     
       <meta 
         property="og:url" 
-        content="http://example.com/links/index.html">
+        content="http://example.com/2022/02/12/Dart-%E5%BA%93/index.html">
     
     
       <meta 
@@ -36,6 +36,26 @@
         content="https://demo.theme-kaze.top/img/Kaze.png">
     
     
+    
+      <meta 
+        property="og:type" 
+        content="article">
+      <meta 
+        property="og:article:published_time" 
+        content="2022-02-12">
+      <meta 
+        property="og:article:modified_time" 
+        content="2022-02-12">
+      <meta 
+        property="og:article:author" 
+        content="Jiancheng Ma">
+      
+        
+          <meta 
+            property="og:article:tag" 
+            content="dart">
+        
+      
     
   
   <script>
@@ -140,6 +160,8 @@
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1952792_89b4ac4k4up.css">
   
+    <link rel="stylesheet" href="/js/lib/lightbox/baguetteBox.min.css">
+  
 <meta name="generator" content="Hexo 5.4.1"></head>
 
   <body>
@@ -231,15 +253,161 @@
         <div class="container">
           <div class="columns">
             <main class="main-column">
-<div class="card card-content">
-  <h1 class="widget-title">友链</h1>
-</div>
-<div class="card card-content friend-card">
-  <ul class="links">
+<article class="card card-content">
+  <header>
+    <h1 class="post-title">
+      Dart 库
+    </h1>
+  </header>
+  <div class="post-meta post-show-meta">
+    <time datetime="2022-02-12T08:18:05.000Z">
+      <i 
+        class="iconfont icon-calendar" 
+        style="margin-right: 2px;">
+      </i>
+      <span>2022-02-12</span>
+    </time>
     
-  </ul>
+      <span class="dot"></span>
+      
+        <a 
+          href="/categories/dart/" 
+          class="post-meta-link">
+          dart
+        </a>
+      
+    
+    
+      <span class="dot"></span>
+      <span>300 字</span>
+    
+  </div>
+  
+    <div 
+      class="post-meta post-show-meta" 
+      style="margin-top: -10px;">
+      <div style="display: flex; align-items: center;">
+        <i 
+          class="iconfont icon-biaoqian" 
+          style="margin-right: 2px; font-size: 1.15rem;">
+        </i>
+        
+          
+          <a 
+            href="/tags/dart/" 
+            class="post-meta-link">
+            dart
+          </a>
+        
+      </div>
+    </div>
+  
+  </header>
+  <div 
+    id="section" 
+    class="post-content">
+    <h3 id="Dart-库"><a href="#Dart-库" class="headerlink" title="Dart 库"></a><center>Dart 库</center></h3><h4 id="一-全平台"><a href="#一-全平台" class="headerlink" title="一. 全平台"></a>一. 全平台</h4><ol>
+<li><pre><code class="dart">dart:async 
+支持使用Future和Stream类实现异步编程
+<pre class="highlight"><span class="line"></span><br><span class="line">2. ```</span><br><span class="line">   dart:collection</span><br><span class="line">   提供dart:core中不支持的额外的集合操作工具类</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:convert
+转换不同数据的编码器和解码器,包括JSON和UTF-8
+<pre class="highlight"><span class="line"></span><br><span class="line">4. ```</span><br><span class="line">   dart:core</span><br><span class="line">   内置类型、集合以及其它的一些核心功能</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:developer
+开发工具,只支持JIT和dartdevc
+<pre class="highlight"><span class="line"></span><br><span class="line">6. ```</span><br><span class="line">   dart:math</span><br><span class="line">   算术相关函数及常量,随机数生成器</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:typed_data
+高效处理固定大小数据和SIMD数字类型的列表
+<pre class="highlight"><span class="line"></span><br><span class="line">#### 二. 原生平台</span><br><span class="line"></span><br><span class="line">1. ```</span><br><span class="line">   dart:ffi</span><br><span class="line">   使用原生C语言API</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:io
+支持非Web应用的文件,Socket HTTP 及 其它I/O操作
+<pre class="highlight"><span class="line"></span><br><span class="line">3. ```</span><br><span class="line">   dart:isolate</span><br><span class="line">   使用Isolate实现并发编程:类似于线程独立的Worker</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:mirrors
+支持检查和动态调用的基本反射功能;仅在JIT中有效,Flutter无效
+<pre class="highlight"><span class="line"></span><br><span class="line">#### 三. Web平台</span><br><span class="line"></span><br><span class="line">1. ```</span><br><span class="line">   dart:html</span><br><span class="line">   HTML元素和其它资源</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:indexed_db
+客户端使用的可以索引的键对值存储
+<pre class="highlight"><span class="line"></span><br><span class="line">3. ```</span><br><span class="line">   dart:js 弃用</span><br></pre>
+</code></pre>
+</li>
+<li><pre><code>dart:js_util
+补充功能性API
+<pre class="highlight"><span class="line"></span><br><span class="line">5. ```</span><br><span class="line">   dart:svg</span><br><span class="line">   用于可缩放的矢量图形</span><br></pre>
+</code></pre>
+</li>
+<li><p>&#96;&#96;&#96;<br>dart:web_audio<br>浏览器的高保真音频编程</p>
+<pre class="highlight"><span class="line"></span><br><span class="line">7. ```</span><br><span class="line">   dart:web_gl</span><br><span class="line">   浏览器3D编程</span><br></pre></li>
+</ol>
+
+  </div>
+  <div>
+    
+      <div 
+        class="post-note note-warning copyright" 
+        style="margin-top: 42px">
+        <p>
+          <span style="font-weight: bold;">作者：</span><a 
+            target="_blank" 
+            rel="nofollow noopener noreferrer" 
+            href="/about">
+            Jiancheng Ma
+          </a>
+        </p>
+        <p>
+          <span style="font-weight: bold;">文章链接：</span><a 
+            target="_blank" 
+            rel="nofollow noopener noreferrer" 
+            href="http://example.com/2022/02/12/Dart-%E5%BA%93/">
+            http://example.com/2022/02/12/Dart-%E5%BA%93/
+          </a>
+        </p>
+        <p><span style="font-weight: bold;">版权声明：</span>本博客所有文章除特别声明外，均采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0 协议</a>。转载请注明出处！</p>
+      </div>
+    
+  </div>
+</article>
+<div class="nav">
+  
+  
+    <div class="nav-item-next">
+      <a 
+        href="/2022/02/11/%E5%BA%94%E7%94%A8%E5%B1%82/" 
+        class="nav-link">
+        <div>
+          <div class="nav-label">下一篇</div>
+          
+            <div class="nav-title">应用层 </div>
+          
+        </div>
+        <i class="iconfont icon-right nav-next-icon"></i>
+      </a>
+    </div>
+  
 </div>
-</main>
+
+<div 
+  class="card card-content toc-card" 
+  id="mobiletoc">
+  <div class="toc-header">
+  <i 
+    class="iconfont icon-menu" 
+    style="padding-right: 2px;">
+  </i>目录
+</div>
+<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dart-%E5%BA%93"><span class="toc-text">Dart 库</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80-%E5%85%A8%E5%B9%B3%E5%8F%B0"><span class="toc-text">一. 全平台</span></a></li></ol></li></ol>
+</div></main>
             <aside class="left-column">
               
               <div class="card card-author">
@@ -277,6 +445,18 @@
               </div>
                <div class="sticky-tablet">
   
+  
+    <article class="display-when-two-columns spacer">
+      <div class="card card-content toc-card">
+        <div class="toc-header">
+  <i 
+    class="iconfont icon-menu" 
+    style="padding-right: 2px;">
+  </i>目录
+</div>
+<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dart-%E5%BA%93"><span class="toc-text">Dart 库</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80-%E5%85%A8%E5%B9%B3%E5%8F%B0"><span class="toc-text">一. 全平台</span></a></li></ol></li></ol>
+      </div>
+    </article>
   
   
   <article class="card card-content categories-widget">
@@ -334,45 +514,21 @@
   </article>
   
   
-    <article class="card card-content widescreen-archive archive-widget">
-      <div class="archive-card">
-  <div class="archive-card-header">
-    <i 
-      class="iconfont icon-wodebaobiao" 
-      style="padding-right: 2px;">
-    </i>归档
-  </div>
-  <div class="archive-card-list">
-    
-    
-    
-      
-        
-        
-        
-      
-    
-      
-        
-      
-    
-    
-      <a 
-        href="/archives/2022" 
-        class="archive-card-list-item">
-        2022
-        <span class="archive-card-list-item-badge">2</span>
-      </a>
-    
-  </div>
-</div>
-    </article>
-  
 </div>
             </aside>
             <aside class="right-column">
               <div class="sticky-widescreen">
   
+  
+    <article class="card card-content toc-card">
+      <div class="toc-header">
+  <i 
+    class="iconfont icon-menu" 
+    style="padding-right: 2px;">
+  </i>目录
+</div>
+<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dart-%E5%BA%93"><span class="toc-text">Dart 库</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80-%E5%85%A8%E5%B9%B3%E5%8F%B0"><span class="toc-text">一. 全平台</span></a></li></ol></li></ol>
+    </article>
   
   
   <article class="card card-content">
@@ -399,40 +555,6 @@
 </div>
   </article>
   
-  
-    <article class="card card-content">
-      <div class="archive-card">
-  <div class="archive-card-header">
-    <i 
-      class="iconfont icon-wodebaobiao" 
-      style="padding-right: 2px;">
-    </i>归档
-  </div>
-  <div class="archive-card-list">
-    
-    
-    
-      
-        
-        
-        
-      
-    
-      
-        
-      
-    
-    
-      <a 
-        href="/archives/2022" 
-        class="archive-card-list-item">
-        2022
-        <span class="archive-card-list-item-badge">2</span>
-      </a>
-    
-  </div>
-</div>
-    </article>
   
 </div>
             </aside>
@@ -531,6 +653,36 @@
 </a> 
      
      
+     
+      <script>
+  var addImgLayout = function () {
+    var img = document.querySelectorAll('.post-content img')
+    var i
+    for (i = 0; i < img.length; i++) {
+      var wrapper = document.createElement('a')
+      wrapper.setAttribute('href', img[i].getAttribute('data-src'))
+      wrapper.setAttribute('aria-label', 'illustration')
+      wrapper.style.cssText =
+        'width: 100%; display: flex; justify-content: center;'
+      if (img[i].alt) wrapper.dataset.caption = img[i].alt
+      wrapper.dataset.nolink = true
+      img[i].before(wrapper)
+      wrapper.append(img[i])
+      var divWrap = document.createElement('div')
+      divWrap.classList.add('gallery')
+      wrapper.before(divWrap)
+      divWrap.append(wrapper)
+    }
+    baguetteBox.run('.gallery')
+  }
+</script>
+<script>
+  loadScript(
+    "/js/lib/lightbox/baguetteBox.min.js",
+    addImgLayout
+  )
+</script>
+ 
      
      
     <script src="/js/main.js"></script> 
